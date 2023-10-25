@@ -1,0 +1,39 @@
+name: ecosoftvmsgate
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: any
+  firebase_core_desktop: any
+  firedart: any
+  collapsible_sidebar: any
+  google_fonts: any
+  desktop_window: any
+  provider: any
+  sqflite_common_ffi: any
+  floating_snackbar: any
+  email_validator: any
+  firebase_auth: any
+  cloud_firestore: any
+  flutter_spinkit: any
+  file_saver: any
+  csv: any
+  intl: any
+  mailer: any
+  http: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - 'assets/'
